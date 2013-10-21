@@ -247,7 +247,7 @@ define([
 
   var initialize = function(){
     var app_router = new AppRouter;
-    app_router.on('showProjects', function(){
+    app_router.on('route:showProjects', function(){
       // Call render on the module we loaded in via the dependency array
       // 'views/projects/list'
       var projectListView = new ProjectListView();
